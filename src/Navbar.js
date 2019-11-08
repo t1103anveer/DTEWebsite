@@ -1,8 +1,26 @@
 import React from 'react';
+import $ from "jquery";
 
 
 export  default class  Navbar extends  React.Component{
 
+    componentDidMount() {
+
+        $("nav div").click(function() {
+            $("ul").slideToggle();
+            $("ul ul").css("display", "none");
+        });
+
+        $("ul li").click(function() {
+            $(this).find('ul').slideToggle();
+        });
+
+        $(window).resize(function() {
+            if($(window).width() > 768) {
+                $("ul").removeAttr('style');
+            }
+        });
+    }
 
     render(){
 
@@ -10,9 +28,7 @@ export  default class  Navbar extends  React.Component{
             <div>
                 <nav>
                     <div className="menu">
-                        <div className="burger-line"></div>
-                        <div className="burger-line"></div>
-                        <div className="burger-line"></div>
+                        <i className="fa fa-bars"></i>
                     </div>
 
                     <ul>

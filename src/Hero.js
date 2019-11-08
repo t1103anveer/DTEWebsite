@@ -12,7 +12,6 @@ export default function Hero() {
             </div>
 
             <div className="header">
-                <h1></h1>
             </div>
         </div>
 
