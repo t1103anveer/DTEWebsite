@@ -1,5 +1,5 @@
 html, body{
-  color: black;
+  background-color: black;
   margin: 0;
   padding: 0;
   font-family: "Poppins";
@@ -13,7 +13,7 @@ html, body{
 }
 
 .background-image{
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 100vh;
   overflow: hidden;
@@ -110,9 +110,9 @@ ul li:hover ul {
 
 .workStreams-wrapper{
   width: 100%;
-  margin-top: 100vh;
-  background: black;
-  position: absolute;
+  background-color: black;
+  position: relative;
+  padding-top: 25px;
 }
 
 .title{
@@ -139,7 +139,7 @@ h3{
 .work-stream{
   width: 80%;
   margin-top: 25px;
-  margin-left: 25px;
+  margin-left: 15%;
 }
 
 .work-stream-summary{
@@ -147,4 +147,150 @@ h3{
   color: white;
   display: flex;
   justify-content: left;
+}
+
+.ourTeam-wrapper{
+  width: 100%;
+  background: black;
+  position: absolute;
+  margin-top: 25px;
+  text-align: center
+}
+
+.team-table{
+  margin-top: 25px;
+  width: 90%;
+  display: inline-block;
+}
+
+.row {
+  z-index: 1;
+  margin: 0 !important;
+  padding: 0 !important;
+  text-align: left;
+}
+
+.cardd {
+  border: 1px solid rgba(255,255,255, 0.8);
+  height: 220px;
+  -webkit-transition: 1s !important;
+}
+
+.row h5 {
+  color: #fff;
+  font-family: "Poppins";
+  margin: 48px 0 2px 4px;
+  font-size: 16px;
+}
+
+.row h5:before {
+  position: absolute;
+  content: "";
+  top: 48px;
+  left: 10px;
+  width: 3px;
+  height: 20px;
+  display: block;
+  background: #fff;
+}
+
+.profile-title {
+  color: #509A06;
+  margin-left: 4px;
+  font-size: 14px;
+  margin-bottom: 70px !important;
+}
+
+.profile-link {
+  margin-left: 4px;
+  color: lightgrey !important;
+  font-family: Poppins;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.profile-link:hover {
+  text-decoration: none !important;
+  color: #509A06 !important;
+}
+
+.cardd:hover:before {
+  -webkit-transition: 1s !important;
+  content: "";
+  position: absolute;
+  top: -100px;
+  left: 100px;
+  width: 280px;
+  height: 280px;
+  z-index: 1;
+  animation: anim 3.2s ease-in-out;
+}
+
+.card1.cardd:hover::before {
+  background: url(team1.jpg);
+}
+.card2.cardd:hover::before {
+  background: url(team2.jpg);
+}
+.card3.cardd:hover::before {
+  background: url(team3.jpg);
+}
+
+.card4.cardd:hover::before {
+  background: url(team1.jpg);
+}
+.card5.cardd:hover::before {
+  background: url(team2.jpg);
+}
+.card6.cardd:hover::before {
+  background: url(team3.jpg);
+}
+
+.card7.cardd:hover::before {
+  background: url(team1.jpg);
+}
+.card8.cardd:hover::before {
+  background: url(team2.jpg);
+}
+
+@keyframes anim {
+  0% {
+    opacity: 0;
+    left: 70px;
+  }
+
+  20% {
+    opacity: 1;
+    left: 100px;
+  }
+
+  100% {
+    opacity: 1;
+    left: 100px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+
+  .cardd {
+    height: 100px;
+  }
+
+  .row h5 {
+    margin: 28px 0 2px 4px;
+  }
+
+  .row p {
+    margin-bottom: 10px !important;
+  }
+
+  .row h5::before {
+    top: 26px;
+  }
+
+  .cardd:hover::before {
+    display: none;
+  }
 }
