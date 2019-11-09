@@ -49,7 +49,7 @@ export  default class  Navbar extends  React.Component{
                                 <li><a href="#" >Outputs</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="/ContactUs">Contact Us</a></li>
                     </ul>
                 </nav>
             </div>

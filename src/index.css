@@ -59,6 +59,7 @@ ul li a {
 
 ul li a:hover {
   color: #509A06;
+  text-decoration: none;
 }
 
 ul ul {
