@@ -4,7 +4,7 @@ export default function OurTeam() {
 
     return(
 
-        <div>
+        <div id="ourteam">
             <div className="ourTeam-wrapper">
                 <div className="title">
                     <h1>Our Team</h1>

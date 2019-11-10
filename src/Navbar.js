@@ -33,7 +33,7 @@ export  default class  Navbar extends  React.Component{
 
                     <ul>
                         <li><a href="/Home">Home</a></li>
-                        <li><a href="#">Work Streams </a>
+                        <li><a href="#workstreams">Work Streams </a>
                             <ul>
                                 <li><a href="#">Project 1</a></li>
                                 <li><a href="#">Project 2</a></li>
@@ -41,8 +41,8 @@ export  default class  Navbar extends  React.Component{
                                 <li><a href="#">Project 4</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Our Team</a></li>
-                        <li><a href="#">Advisory Board Members</a></li>
+                        <li><a href="#ourteam">Our Team</a></li>
+                        <li><a href="/BoardMembers">Advisory Board Members</a></li>
                         <li><a href="#">News & Events</a></li>
                         <li><a href="#">Deliverables</a>
                             <ul>

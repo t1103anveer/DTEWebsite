@@ -3,7 +3,7 @@ import React from 'react';
 export default function WorkStreams() {
 
     return(
-        <div>
+        <div id="workstreams">
             <div className="workStreams-wrapper">
                 <div className="title wow fadeInUp" data-wow-delay="0.25s">
                     <h1>Work Streams</h1>

@@ -355,7 +355,7 @@ h3{
 .contact-title{
   position: relative;
   width: 80%;
-  height: 6vh;
+  height: 20vh;
   margin: auto;
   padding-top: 15vh;
 }
@@ -365,34 +365,25 @@ h3{
   height: 8vh;
   margin: auto;
   position: relative;
-  padding-top: 50px;
 }
 
 .contact-intro p{
   color: white;
   letter-spacing: 0.5px;
   font-size: 18px;
+  padding-bottom: 20px;
 }
 
 .contact-cards{
-  padding-top: 50px;
   width: 80%;
-  margin: auto;
+  margin: 25px auto;
   position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
 }
 
-.contact-one{
-  padding: 50px 150px 0 0;
-}
-
-.contact-two{
-  padding: 50px 150px 0 0;
-}
-
-.contact-three{
+.contacts{
   padding: 50px 150px 0 0;
 }
 
@@ -400,4 +391,50 @@ h3{
   color: white;
   font-size: 18px;
 }
+
+.boardmembers-wrapper{
+  width: 100%;
+  margin: auto;
+  background-color: black;
+}
+
+.boardmembers-header{
+  width: 80%;
+  margin: auto;
+  background: black;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+}
+
+.boardmembers-title{
+  margin-top: 12vh;
+}
+
+.board-members{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.board-members p{
+  color: white;
+}
+
+.boardmember-name{
+  font-size: 22px;
+}
+
+.boardmember-position{
+  font-size: 18px;
+  color: #509A06 !important;
+}
+
+.board-member{
+  padding: 50px;
+}
+
+
 

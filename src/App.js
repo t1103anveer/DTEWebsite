@@ -2,6 +2,7 @@ import React from 'react';
 import "./index.css";
 import $ from "jquery"
 import WOW from "wowjs/dist/wow.js";
+import "wowjs/css/libs/animate.css"
 import "bootstrap/dist/css/bootstrap.css";
 import {
     BrowserRouter as Router,
@@ -11,6 +12,7 @@ import {
 } from "react-router-dom";
 import Home from "./Home";
 import ContactUs from "./ContactUs";
+import BoardMembers from "./BoardMembers";
 
 class App extends  React.Component {
 
@@ -19,6 +21,9 @@ class App extends  React.Component {
 
             <Router>
                 <Switch>
+                    <Route path="/BoardMembers">
+                        <BoardMembers/>
+                    </Route>
                     <Route path="/ContactUs">
                         <ContactUs/>
                     </Route>
