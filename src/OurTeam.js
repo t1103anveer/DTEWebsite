@@ -6,12 +6,12 @@ export default function OurTeam() {
 
         <div id="ourteam">
             <div className="ourTeam-wrapper">
-                <div className="title">
+                <div className="title wow fadeInUp" data-wow-delay="0.25">
                     <h1>Our Team</h1>
                 </div>
 
                 <div className="team-table">
-                    <div className="row">
+                    <div className="row wow fadeInUp" data-wow-delay="0.4">
                         <div className="cardd col-lg-3 card1">
                             <h5 className="team-name">Lorem Ipsum</h5>
                             <p className="profile-title">Creative Designer</p>
@@ -33,7 +33,7 @@ export default function OurTeam() {
                             <a className="profile-link" href="#">View profile</a>
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="row wow fadeInUp" data-wow-delay="0.4">
                         <div className="cardd col-lg-3 card1">
                             <h5 className="team-name">Lorem Ipsum</h5>
                             <p className="profile-title">Creative Designer</p>
@@ -55,7 +55,7 @@ export default function OurTeam() {
                             <a className="profile-link" href="#">View profile</a>
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="row wow fadeInUp" data-wow-delay="0.4">
                         <div className="cardd col-lg-3 card1">
                             <h5 className="team-name">Lorem Ipsum</h5>
                             <p className="profile-title">Creative Designer</p>

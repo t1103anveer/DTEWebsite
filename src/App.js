@@ -16,7 +16,14 @@ import BoardMembers from "./BoardMembers";
 
 class App extends  React.Component {
 
+    componentDidMount() {
+        new WOW.WOW({
+            live: false
+        }).init();
+    }
+
     render() {
+
         return (
 
             <Router>
@@ -33,9 +40,8 @@ class App extends  React.Component {
                 </Switch>
             </Router>
 
-
-
         );
+
     }
 }
 

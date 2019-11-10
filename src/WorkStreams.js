@@ -9,7 +9,7 @@ export default function WorkStreams() {
                     <h1>Work Streams</h1>
                 </div>
 
-                <div className="work-stream">
+                <div className="work-stream wow fadeInUp" data-wow-delay="0.3s">
                     <div className="work-stream-title">
                         <h3><a className="work-stream-link" href="/Home">Work Stream 1</a></h3>
                     </div>
@@ -19,7 +19,7 @@ export default function WorkStreams() {
                     </div>
                 </div>
 
-                <div className="work-stream">
+                <div className="work-stream wow fadeInUp" data-wow-delay="0.3s">
                     <div className="work-stream-title">
                         <h3><a className="work-stream-link" href="/Home">Work Stream 2</a></h3>
                     </div>
@@ -29,7 +29,7 @@ export default function WorkStreams() {
                     </div>
                 </div>
 
-                <div className="work-stream">
+                <div className="work-stream wow fadeInUp" data-wow-delay="0.3s">
                     <div className="work-stream-title">
                         <h3><a className="work-stream-link" href="/Home">Work Stream 3</a></h3>
                     </div>
@@ -39,7 +39,7 @@ export default function WorkStreams() {
                     </div>
                 </div>
 
-                <div className="work-stream">
+                <div className="work-stream wow fadeInUp" data-wow-delay="0.3s">
                     <div className="work-stream-title">
                         <h3><a className="work-stream-link" href="/Home">Work Stream 4</a></h3>
                     </div>
