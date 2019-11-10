@@ -1,9 +1,5 @@
 import React from 'react';
 import "./index.css";
-import Navbar from './Navbar';
-import Hero from './Hero';
-import WorkStreams from './WorkStreams';
-import OurTeam from './OurTeam';
 import $ from "jquery"
 import WOW from "wowjs/dist/wow.js";
 import "bootstrap/dist/css/bootstrap.css";
@@ -31,6 +27,8 @@ class App extends  React.Component {
                     </Route>
                 </Switch>
             </Router>
+
+
 
         );
     }

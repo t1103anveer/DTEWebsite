@@ -32,7 +32,7 @@ export  default class  Navbar extends  React.Component{
                     </div>
 
                     <ul>
-                        <li><a href="#">Home</a></li>
+                        <li><a href="/Home">Home</a></li>
                         <li><a href="#">Work Streams </a>
                             <ul>
                                 <li><a href="#">Project 1</a></li>

@@ -5,13 +5,13 @@ export default function WorkStreams() {
     return(
         <div>
             <div className="workStreams-wrapper">
-                <div className="title">
+                <div className="title wow fadeInUp" data-wow-delay="0.25s">
                     <h1>Work Streams</h1>
                 </div>
 
                 <div className="work-stream">
                     <div className="work-stream-title">
-                        <h3>Work Stream 1</h3>
+                        <h3><a className="work-stream-link" href="/Home">Work Stream 1</a></h3>
                     </div>
 
                     <div className="work-stream-summary">
@@ -21,7 +21,7 @@ export default function WorkStreams() {
 
                 <div className="work-stream">
                     <div className="work-stream-title">
-                        <h3>Work Stream 2</h3>
+                        <h3><a className="work-stream-link" href="/Home">Work Stream 2</a></h3>
                     </div>
 
                     <div className="work-stream-summary">
@@ -31,7 +31,7 @@ export default function WorkStreams() {
 
                 <div className="work-stream">
                     <div className="work-stream-title">
-                        <h3>Work Stream 3</h3>
+                        <h3><a className="work-stream-link" href="/Home">Work Stream 3</a></h3>
                     </div>
 
                     <div className="work-stream-summary">
@@ -41,7 +41,7 @@ export default function WorkStreams() {
 
                 <div className="work-stream">
                     <div className="work-stream-title">
-                        <h3>Work Stream 4</h3>
+                        <h3><a className="work-stream-link" href="/Home">Work Stream 4</a></h3>
                     </div>
 
                     <div className="work-stream-summary">
