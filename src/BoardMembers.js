@@ -5,7 +5,7 @@ import Footer from './Footer';
 export default function BoardMembers(){
 
     return(
-        <div>
+        <div className="background">
             <Navbar/>
 
             <div className="boardmembers-wrapper">
