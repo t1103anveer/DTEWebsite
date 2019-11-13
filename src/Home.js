@@ -5,6 +5,7 @@ import Hero from './Hero';
 import WorkStreams from './WorkStreams';
 import OurTeam from './OurTeam';
 import Footer from './Footer';
+import Introduction from './Introduction';
 import $ from "jquery"
 import WOW from "wowjs/dist/wow.js";
 import "bootstrap/dist/css/bootstrap.css";
@@ -61,6 +62,7 @@ class Home extends  React.Component {
             <div className="background">
                 <Navbar/>
                 <Hero/>
+                <Introduction/>
                 <WorkStreams/>
                 <OurTeam/>
                 <Footer/>

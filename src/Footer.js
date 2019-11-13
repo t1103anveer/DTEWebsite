@@ -7,7 +7,7 @@ export default function Footer(){
         <div>
             <div className="footer">
                 <div className="copyright-text">
-                    <p className="copyright">© 2019 BY Omer Rana</p>
+                    <p className="copyright">© 2019 By Emerging Designs</p>
                 </div>
                 <div className="links">
                     <span className="footer-links"><a href="/Home">link 1</a></span>

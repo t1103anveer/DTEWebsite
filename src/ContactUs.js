@@ -5,7 +5,7 @@ import Footer from './Footer';
 export default function ContactUs(){
 
     return(
-        <div>
+        <div className="background">
             <Navbar/>
             <div className="contact-wrapper">
                 <div className="contact-title wow fadeInUp" data-wow-delay="0.25">
