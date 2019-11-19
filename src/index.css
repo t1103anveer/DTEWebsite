@@ -151,7 +151,7 @@ ul li:hover ul {
   width: 100%;
   position: relative;
   padding-top: 25px;
-  height: 80vh;
+  margin-bottom: 25vh;
 }
 
 .intro-text{
@@ -162,6 +162,11 @@ ul li:hover ul {
   display: flex;
   justify-content: left;
   font-size: 24px;
+}
+
+.logo-img{
+    height: 100px;
+    width: 300px;
 }
 
 .workStreams-wrapper{
