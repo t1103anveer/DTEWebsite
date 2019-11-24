@@ -13,6 +13,7 @@ import {
 import Home from "./Home";
 import ContactUs from "./ContactUs";
 import BoardMembers from "./BoardMembers";
+import NewsEvents from "./NewsEvents";
 
 class App extends  React.Component {
 
@@ -28,6 +29,9 @@ class App extends  React.Component {
 
             <Router>
                 <Switch>
+                    <Route path="/NewsEvents">
+                        <NewsEvents/>
+                    </Route>
                     <Route path="/BoardMembers">
                         <BoardMembers/>
                     </Route>

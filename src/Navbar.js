@@ -35,15 +35,15 @@ export  default class  Navbar extends  React.Component{
                         <li><a href="/Home">Home</a></li>
                         <li><a href="/Home#workstreams">Work Streams </a>
                             <ul>
-                                <li><a href="#">Project 1</a></li>
-                                <li><a href="#">Project 2</a></li>
-                                <li><a href="#">Project 3</a></li>
-                                <li><a href="#">Project 4</a></li>
+                                <li><a href="#">Vehicles and Associated Technologies</a></li>
+                                <li><a href="#">Electricity as a Transport Fuel</a></li>
+                                <li><a href="#">Information and Energy Flow</a></li>
+                                <li><a href="#">PESTEL Analysis</a></li>
                             </ul>
                         </li>
                         <li><a href="/Home#ourteam">Our Team</a></li>
                         <li><a href="/BoardMembers">Advisory Board Members</a></li>
-                        <li><a href="#">News & Events</a></li>
+                        <li><a href="/NewsEvents">News & Events</a></li>
                         <li><a href="#">Deliverables</a>
                             <ul>
                                 <li><a href="#" >Outputs</a></li>

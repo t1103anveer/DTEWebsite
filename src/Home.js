@@ -13,6 +13,7 @@ import "bootstrap/dist/css/bootstrap.css";
 
 class Home extends  React.Component {
 
+
     componentDidMount() {
         $(document).scroll(function () {
             var $nav = $(".nav");
