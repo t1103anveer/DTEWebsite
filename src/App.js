@@ -1,6 +1,8 @@
 import React from 'react';
 import "./index.css";
-import $ from "jquery"
+import $ from "jquery";
+import "lightbox2/src/css/lightbox.css";
+import "lightbox2/src/js/lightbox";
 import WOW from "wowjs/dist/wow.js";
 import "wowjs/css/libs/animate.css"
 import "bootstrap/dist/css/bootstrap.css";

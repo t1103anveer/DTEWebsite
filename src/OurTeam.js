@@ -1,4 +1,8 @@
 import React from 'react';
+import $ from "jquery";
+import "lightbox2/src/css/lightbox.css";
+import "lightbox2/src/js/lightbox";
+import team1 from "./team1.jpg";
 
 export default function OurTeam() {
 
@@ -17,7 +21,7 @@ export default function OurTeam() {
                         <div className="cardd col-lg-3 card1">
                             <h5 className="team-name">Liana Mirela Cipcigan</h5>
                             <p className="profile-title">Principle Investigator</p>
-                            <a className="profile-link" href="#">View profile</a>
+                            <a className="profile-link" href="annie-spratt-uvMYpVdiqlU-unsplash.png" data-lightbox="team1">View profile</a>
                         </div>
                         <div className="cardd col-lg-3 card2">
                             <h5 className="team-name">Jonathan Mark Preston</h5>
@@ -27,7 +31,7 @@ export default function OurTeam() {
                         <div className="cardd col-lg-3 card3">
                             <h5 className="team-name">Abderrahmane Haddad</h5>
                             <p className="profile-title">Co-Investigator</p>
-                            <a className="profile-link" href="#">View profile</a>
+                            <a className="profile-link" href={team1} data-lightbox="image-1">View profile</a>
                         </div>
                         <div className="cardd col-lg-3 card4">
                             <h5 className="team-name">Craig Peter Lawson</h5>
