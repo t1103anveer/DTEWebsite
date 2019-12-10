@@ -31,7 +31,7 @@ export  default class  Navbar extends  React.Component{
                         <i className="fa fa-bars"></i>
                     </div>
 
-                    <ul>
+                    <ul className="wow fadeInUp" data-wow-delay="0.25s">
                         <li><a href="/Home">Home</a></li>
                         <li><a href="/Home#workstreams">Work Streams </a>
                             <ul>

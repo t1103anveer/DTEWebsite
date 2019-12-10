@@ -8,14 +8,14 @@ export default function Hero() {
         <div>
             <a id="home"></a>
             <div className="background-image">
-                <div className="header">
-                    <p className="header-title">Decarbonising</p>
-                    <p className="header-title">Transport</p>
-                    <p className="header-title">through</p>
-                    <p className="header-title">Electrification</p>
+                <div className="header wow fadeInUp">
+                    <p className="header-title wow fadeInUp" data-wow-delay="0.5s">Decarbonising</p>
+                    <p className="header-title wow fadeInUp" data-wow-delay="0.75s">Transport</p>
+                    <p className="header-title wow fadeInUp" data-wow-delay="1s">through</p>
+                    <p className="header-title wow fadeInUp" data-wow-delay="1.25s">Electrification</p>
                 </div>
                 <div className="sub-header">
-                    <p className="sub-header-title">DTE a Whole System Approach</p>
+                    <p className="sub-header-title wow fadeInUp" data-wow-delay="1.75s">DTE a Whole System Approach</p>
                 </div>
             </div>
         </div>
