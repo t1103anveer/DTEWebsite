@@ -21,14 +21,9 @@ export default function ContactUs(){
                         <p className="contact-phone">+44 29208 75542</p>
                     </div>
                     <div className="contacts wow fadeInLeft" data-wow-delay="0.85">
-                        <p className="contact-name">Liana Cipcigan</p>
+                        <p className="contact-name">Professor Liana Cipcigan</p>
                         <p className="contact-email">cipciganlm@cardiff.ac.uk</p>
                         <p className="contact-phone">+44 29208 70665</p>
-                    </div>
-                    <div className="contacts wow fadeInLeft" data-wow-delay="1.05">
-                        <p className="contact-name">Professor Omer Rana</p>
-                        <p className="contact-email">someemail@example.com</p>
-                        <p className="contact-phone">01345678976</p>
                     </div>
                 </div>
             </div>

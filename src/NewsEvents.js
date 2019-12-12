@@ -20,12 +20,12 @@ export default function NewsEvents(){
 
                     <div className="event-info">
                         <div className="event-date">
-                            <span>Saturday</span>
-                            <span>20th January 2020</span>
+                            <span>Tuesday</span>
+                            <span>21st January 2020</span>
                         </div>
-                        <h4>An Event Title</h4>
-                        <p className="event-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                        <a href="#" className="event-link">Read More</a>
+                        <h4>DTE Launch Event</h4>
+                        <p className="event-description">This event signifies the official launch of the Decarbonising Transport through Electrification Network. More details to be released shortly.</p>
+                        <a href="#" className="event-link">Link to event</a>
                     </div>
 
                 </div>

@@ -42,7 +42,7 @@ export default function BoardMembers(){
                     <div className="board-member wow fadeInUp" data-wow-delay="0.4">
                         <p className="boardmember-name">Marcia Jones</p>
                         <p className="boardmember-position">Senior Manager of Innovation Networks within the Department for Economy, Science and Transport at Welsh Government</p>
-                        <p className="boardmember-details.">Need something here</p>
+                        <p className="boardmember-details.">Facilitates Strategic R&D projects, working with businesses and R&I organisations to develop projects and access backing from UK funders e.g. Innovate UK .</p>
                     </div>
 
                     <div className="board-member wow fadeInUp" data-wow-delay="0.4">
@@ -114,7 +114,7 @@ export default function BoardMembers(){
                     <div className="board-member wow fadeInUp" data-wow-delay="0.4">
                         <p className="boardmember-name">Dr. Raj Prabhu</p>
                         <p className="boardmember-position">Associate Director of Center for Advanced Vehicular Systems at Mississippi State University.</p>
-                        <p className="boardmember-details.">Need something here</p>
+                        <p className="boardmember-details.">CAVS is exploring solutions to complex problems, in areas such as autonomous vehicles, materials science, high-performance computing, advanced controls, and human-machine interaction.</p>
                     </div>
                 </div>
 

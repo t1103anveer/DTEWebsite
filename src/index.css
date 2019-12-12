@@ -40,8 +40,8 @@ html, body{
 }
 
 .header{
-  background: rgba(0, 0, 0, 0.8);
-  width: 25vw;
+  background: rgba(0, 0, 0, 0.6);
+  width: 30vw;
   margin: 220px 0 0 150px;
 }
 
@@ -142,7 +142,7 @@ ul li:hover ul {
 }
 
 .background{
-  background: url("test.png");
+  background: black;
   width: 100%;
   background-size: contain;
 }
@@ -151,7 +151,7 @@ ul li:hover ul {
   width: 100%;
   position: relative;
   padding-top: 25px;
-  margin-bottom: 20vh;
+  margin-bottom: 250px;
 }
 
 .intro-text{
@@ -162,6 +162,19 @@ ul li:hover ul {
   display: flex;
   justify-content: left;
   font-size: 1.2rem;
+}
+
+.sponsors{
+  height: 35vh;
+  width: 100%;
+  margin-bottom: 50px;
+  margin-top: 200px;
+}
+
+.sponsors img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
 .workStreams-wrapper{
@@ -209,6 +222,12 @@ h3{
   justify-content: left;
   font-family: 'DIN Alternate Bold';
   font-size: 1.3rem !important;
+}
+
+.work-stream-icon{
+  height: 50px;
+  width: 50px;
+  margin-left: 50px;
 }
 
 .ourTeam-wrapper{
@@ -276,63 +295,6 @@ h3{
   color: #509A06 !important;
 }
 
-.cardd:hover:before {
-  -webkit-transition: 1s !important;
-  content: "";
-  position: absolute;
-  top: -100px;
-  left: 100px;
-  width: 280px;
-  height: 280px;
-  z-index: 1;
-  animation: anim 3.2s ease-in-out;
-}
-
-.card1.cardd:hover::before {
-  background: url(Liana.jpg) no-repeat 50% 50%;
-  background-size: cover;
-}
-.card2.cardd:hover::before {
-  background: url(Craig.jpeg) no-repeat 50% 50%;
-  background-size: cover;
-}
-.card3.cardd:hover::before {
-  background: url(team3.jpg);
-}
-
-.card4.cardd:hover::before {
-  background: url(team1.jpg);
-}
-.card5.cardd:hover::before {
-  background: url(team2.jpg);
-}
-.card6.cardd:hover::before {
-  background: url(team3.jpg);
-}
-
-.card7.cardd:hover::before {
-  background: url(team1.jpg);
-}
-.card8.cardd:hover::before {
-  background: url(team2.jpg);
-}
-
-@keyframes anim {
-  0% {
-    opacity: 0;
-    left: 70px;
-  }
-
-  20% {
-    opacity: 1;
-    left: 120px;
-  }
-
-  100% {
-    opacity: 1;
-    left: 120px;
-  }
-}
 
 @media only screen and (max-width: 900px) {
 
@@ -352,9 +314,6 @@ h3{
     top: 26px;
   }
 
-  .cardd:hover::before {
-    display: none;
-  }
 }
 
 .footer {
@@ -512,8 +471,9 @@ h3{
 }
 
 .event{
-  width: 90%;
-  max-width: 98rem;
+  width: 75%;
+  height: 25rem;
+  max-width: 80rem;
   padding: 5rem;
   box-shadow: 0 1.4rem 8rem rgba(255, 255 ,255, 0.2);
   display: flex;
@@ -524,9 +484,9 @@ h3{
 }
 
 .event-image{
-  min-width: 35rem;
-  max-width: 35rem;
-  height: 30rem;
+  min-width: 30rem;
+  max-width: 30rem;
+  height: 20rem;
   transform: translateX(-4rem);
   position: relative;
 }
@@ -563,18 +523,14 @@ h4{
 
 .event-link{
   display: inline-block;
-  padding: 1rem 2rem;
   letter-spacing: 1px;
   text-transform: uppercase;
   font-size: 1rem;
   color: white;
-  border-radius: 0.8rem;
-  background: linear-gradient(to right, #636363 0%, #383838 100%);
   text-decoration: none;
 }
 
 .event-link:hover{
-  background: linear-gradient(to right, #383838 0%,#636363 100%);
   text-decoration: none;
   color: #509A06;
 }

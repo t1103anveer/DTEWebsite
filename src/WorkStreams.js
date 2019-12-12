@@ -12,6 +12,7 @@ export default function WorkStreams() {
                 <div className="work-stream wow fadeInUp" data-wow-delay="0.3s">
                     <div className="work-stream-title">
                         <h3><a className="work-stream-link" href="/Home">Vehicles and Associated Technologies</a></h3>
+                        <span><img className="work-stream-icon" src={require('./eco-car.png')}  alt="eco-friendly car icon"/></span>
                     </div>
 
                     <div className="work-stream-summary">
@@ -22,6 +23,7 @@ export default function WorkStreams() {
                 <div className="work-stream wow fadeInUp" data-wow-delay="0.3s">
                     <div className="work-stream-title">
                         <h3><a className="work-stream-link" href="/Home">Electricity as a Transport Fuel</a></h3>
+                        <span><img className="work-stream-icon" src={require('./electric.png')}  alt="eco-friendly train icon"/></span>
                     </div>
 
                     <div className="work-stream-summary">
@@ -32,6 +34,7 @@ export default function WorkStreams() {
                 <div className="work-stream wow fadeInUp" data-wow-delay="0.3s">
                     <div className="work-stream-title">
                         <h3><a className="work-stream-link" href="/Home">Information and Energy Flow</a></h3>
+                        <span><img className="work-stream-icon" src={require('./info.png')}  alt="info icon"/></span>
                     </div>
 
                     <div className="work-stream-summary">
@@ -42,6 +45,7 @@ export default function WorkStreams() {
                 <div className="work-stream wow fadeInUp" data-wow-delay="0.3s">
                     <div className="work-stream-title">
                         <h3><a className="work-stream-link" href="/Home">PESTEL Analysis</a></h3>
+                        <span><img className="work-stream-icon" src={require('./analysis.png')}  alt="info icon"/></span>
                     </div>
 
                     <div className="work-stream-summary">

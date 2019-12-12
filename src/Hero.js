@@ -6,7 +6,6 @@ export default function Hero() {
     return(
 
         <div>
-            <a id="home"></a>
             <div className="background-image">
                 <div className="header wow fadeInUp">
                     <p className="header-title wow fadeInUp" data-wow-delay="0.5s">Decarbonising</p>
