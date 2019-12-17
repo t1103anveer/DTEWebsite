@@ -44,7 +44,7 @@ export  default class  Navbar extends  React.Component{
                         <li><a href="/Home#ourteam">Our Team</a></li>
                         <li><a href="/BoardMembers">Advisory Board Members</a></li>
                         <li><a href="/NewsEvents">News & Events</a></li>
-                        <li><a href="#">Deliverables</a>
+                        <li><a href="/Deliverables">Deliverables</a>
                             <ul>
                                 <li><a href="#" >Outputs</a></li>
                             </ul>

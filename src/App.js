@@ -16,6 +16,7 @@ import Home from "./Home";
 import ContactUs from "./ContactUs";
 import BoardMembers from "./BoardMembers";
 import NewsEvents from "./NewsEvents";
+import Deliverables from "./Deliverables";
 
 class App extends  React.Component {
 
@@ -31,6 +32,9 @@ class App extends  React.Component {
 
             <Router>
                 <Switch>
+                    <Route path="/Deliverables">
+                        <Deliverables/>
+                    </Route>
                     <Route path="/NewsEvents">
                         <NewsEvents/>
                     </Route>
